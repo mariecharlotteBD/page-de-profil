@@ -1,0 +1,92 @@
+body {
+  background: rgb(248,248,248);
+  color: pink;
+  margin: 0px;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}/* Write your CSS here */
+
+#banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+
+}
+
+#banner img {
+  border: 5px solid white;
+  width: 250px;
+}
+
+#banner h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px #F18805;
+}
+
+#banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: pink;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+
+.btn:hover {
+  background-color: #FFFF;
+  opacity: 0.8;
+  border: 2px solid white;
+}
+
+.card {
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+
+
+#footer {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+.cards {
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  width: 1000px;
+}
